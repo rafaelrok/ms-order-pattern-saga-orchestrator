@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.luben:zstd-jni:1.5.2-1" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.github.luben" artifactId="zstd-jni" version="1.5.2-1" />
+    <CLASSES>
+      <root url="jar://C:/Gradle/caches/modules-2/files-2.1/com.github.luben/zstd-jni/1.5.2-1/fad786abc1d1b81570e8d9a2fc8a1ef479bc27b6/zstd-jni-1.5.2-1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://C:/Gradle/caches/modules-2/files-2.1/com.github.luben/zstd-jni/1.5.2-1/fc4dca644fbb8527bc77622209b933a19572a983/zstd-jni-1.5.2-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

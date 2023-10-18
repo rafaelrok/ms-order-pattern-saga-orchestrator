@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.springframework:spring-jdbc:6.0.11" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.springframework" artifactId="spring-jdbc" version="6.0.11" />
+    <CLASSES>
+      <root url="jar://C:/Gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/6.0.11/dc495b5cb8052f044fd29aa68bb2231b1895b8f4/spring-jdbc-6.0.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://C:/Gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/6.0.11/44126249e82638597ac5328f7ff54f16e29b300b/spring-jdbc-6.0.11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

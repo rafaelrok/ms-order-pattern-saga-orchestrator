@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.springframework.boot:spring-boot-starter-web:3.1.2" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.springframework.boot" artifactId="spring-boot-starter-web" version="3.1.2" />
+    <CLASSES>
+      <root url="jar://C:/Gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/3.1.2/30b824817e764a5a5a1e9fb46e7ace40bcfa3185/spring-boot-starter-web-3.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://C:/Gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/3.1.2/98e9439f623b7949bb4a2aaebe5a0fc5dfdbe5f8/spring-boot-starter-web-3.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

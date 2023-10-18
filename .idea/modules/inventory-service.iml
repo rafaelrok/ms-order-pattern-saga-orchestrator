@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="inventory-service" external.linked.project.path="$MODULE_DIR$/../../inventory-service" external.root.project.path="$MODULE_DIR$/../../inventory-service" external.system.id="GRADLE" external.system.module.group="br.com.microservices.orchestrated" external.system.module.version="0.0.1-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="CheckStyle-IDEA-Module" serialisationVersion="2">
+    <option name="activeLocationsIds" />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../inventory-service">
+      <excludeFolder url="file://$MODULE_DIR$/../../inventory-service/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../inventory-service/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="72f7b1df-67aa-4c3b-bce0-8fd36cc64229" />
+  </component>
+</module>

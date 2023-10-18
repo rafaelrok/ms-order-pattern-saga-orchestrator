@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.rocksdb:rocksdbjni:7.1.2" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.rocksdb" artifactId="rocksdbjni" version="7.1.2" />
+    <CLASSES>
+      <root url="jar://C:/Gradle/caches/modules-2/files-2.1/org.rocksdb/rocksdbjni/7.1.2/ffe87d1c5d5b3a46d065cc4cf5311f18d8233a6b/rocksdbjni-7.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://C:/Gradle/caches/modules-2/files-2.1/org.rocksdb/rocksdbjni/7.1.2/d1fee252feb98060992556acd8323947dcfac9a1/rocksdbjni-7.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
