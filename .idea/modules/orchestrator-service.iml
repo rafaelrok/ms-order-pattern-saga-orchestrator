@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="orchestrator-service" external.linked.project.path="$MODULE_DIR$/../../orchestrator-service" external.root.project.path="$MODULE_DIR$/../../orchestrator-service" external.system.id="GRADLE" external.system.module.group="br.com.rafaelvieira.ms.orchestrated" external.system.module.version="0.0.1-SNAPSHOT" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
-    <exclude-output />
-    <content url="file://$MODULE_DIR$/../../orchestrator-service">
-      <excludeFolder url="file://$MODULE_DIR$/../../orchestrator-service/.gradle" />
-      <excludeFolder url="file://$MODULE_DIR$/../../orchestrator-service/build" />
-    </content>
-    <orderEntry type="inheritedJdk" />
-    <orderEntry type="sourceFolder" forTests="false" />
+<module version="4">
+  <component name="CheckStyle-IDEA-Module" serialisationVersion="2">
+    <option name="activeLocationsIds" />
   </component>
   <component name="SonarLintModuleSettings">
-    <option name="uniqueId" value="4b2d1afb-7fbe-45b1-8e1e-73e646bc2b41" />
+    <option name="uniqueId" value="109111c8-ece5-4d15-b907-261c9da95940" />
   </component>
 </module>

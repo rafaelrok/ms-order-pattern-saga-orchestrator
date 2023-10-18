@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="order-service" external.linked.project.path="$MODULE_DIR$/../../order-service" external.root.project.path="$MODULE_DIR$/../../order-service" external.system.id="GRADLE" external.system.module.group="br.com.rafaelvieira.ms.orchestrated" external.system.module.version="0.0.1-SNAPSHOT" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
-    <exclude-output />
-    <content url="file://$MODULE_DIR$/../../order-service">
-      <excludeFolder url="file://$MODULE_DIR$/../../order-service/.gradle" />
-      <excludeFolder url="file://$MODULE_DIR$/../../order-service/build" />
-    </content>
-    <orderEntry type="inheritedJdk" />
-    <orderEntry type="sourceFolder" forTests="false" />
+<module version="4">
+  <component name="CheckStyle-IDEA-Module" serialisationVersion="2">
+    <option name="activeLocationsIds" />
   </component>
   <component name="SonarLintModuleSettings">
-    <option name="uniqueId" value="4aea14ba-6c9f-40a8-a268-e7f20afe4258" />
+    <option name="uniqueId" value="c44ba61a-fa89-4ea8-a8cf-252a41405b9a" />
   </component>
 </module>

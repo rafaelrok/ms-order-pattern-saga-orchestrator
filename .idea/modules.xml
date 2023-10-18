@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/inventory-service.iml" filepath="$PROJECT_DIR$/.idea/modules/inventory-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/inventory-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/inventory-service.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/inventory-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/inventory-service.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ms-order-sales-pattern-saga.iml" filepath="$PROJECT_DIR$/.idea/ms-order-sales-pattern-saga.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/orchestrator-service.iml" filepath="$PROJECT_DIR$/.idea/modules/orchestrator-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/orchestrator-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/orchestrator-service.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/orchestrator-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/orchestrator-service.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/order-service.iml" filepath="$PROJECT_DIR$/.idea/modules/order-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/order-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/order-service.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/order-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/order-service.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/payment-service.iml" filepath="$PROJECT_DIR$/.idea/modules/payment-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/payment-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/payment-service.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/payment-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/payment-service.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-service.iml" filepath="$PROJECT_DIR$/.idea/modules/product-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/product-service.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/product-service.test.iml" />
