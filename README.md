@@ -1,5 +1,7 @@
 # Projeto: ms-order-sales-pattern-saga
 
+![Arquitetura](resources/Design%20Pattern%20Saga.gif)
+
 O projeto é um sistema de microservices desenvolvido em Java com Spring Boot, com objetivo de gerir ordens de serviços e manipulação de estoque de forma distribuída. Uma abordagem central nesse projeto é a aplicação do ‘design’ pattern Saga e a utilização do Apache Kafka como meio de comunicação entre os microservices.
 
 **Arquitetura de Microservices:** O sistema é composto por vários microservices que desempenham funções específicas, como a criação de ordens de serviço, o processamento de pagamentos, a atualização do estoque e assim por diante. Cada microservice é responsável por uma parte do processo, permitindo escalabilidade e flexibilidade.
@@ -13,8 +15,6 @@ O projeto é um sistema de microservices desenvolvido em Java com Spring Boot, c
 **Benefícios do Projeto:** Esse projeto de microservices oferece escalabilidade, resiliência e flexibilidade, uma vez que os serviços podem ser dimensionados individualmente. Além disso, o uso do ‘design’ pattern Saga garante a consistência em ambientes distribuídos, e o Kafka facilita a comunicação entre os microservices de maneira eficaz.
 
 Em resumo, representa uma implementação robusta e altamente técnica de um sistema de microservices para gestão de ordens de serviço e estoque, aplicando o ‘design’ pattern Saga e utilizando o Apache Kafka para comunicação assíncrona entre os serviços. Esse projeto é uma demonstração de boas práticas no desenvolvimento de sistemas distribuídos com Java e Spring Boot.
-
-![Arquitetura](resources/ms-order-sales.gif)
 
 ### Sumário:
 
