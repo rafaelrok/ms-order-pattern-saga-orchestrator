@@ -1,8 +1,20 @@
 # Projeto: ms-order-sales-pattern-saga
 
-Repositório contendo o projeto desenvolvido de Arquitetura de Microsserviços: Padrão Saga Orquestrado num sistema distribuido de microservices com kafka.
+O projeto é um sistema de microservices desenvolvido em Java com Spring Boot, com objetivo de gerir ordens de serviços e manipulação de estoque de forma distribuída. Uma abordagem central nesse projeto é a aplicação do ‘design’ pattern Saga e a utilização do Apache Kafka como meio de comunicação entre os microservices.
 
-![Arquitetura](Conte%C3%BAdos/Imagem%20Curso.png)
+**Arquitetura de Microservices:** O sistema é composto por vários microservices que desempenham funções específicas, como a criação de ordens de serviço, o processamento de pagamentos, a atualização do estoque e assim por diante. Cada microservice é responsável por uma parte do processo, permitindo escalabilidade e flexibilidade.
+
+**‘Design’ Pattern Saga:** O padrão Saga é aplicado para garantir a consistência e atomicidade das transações distribuídas. Quando uma ordem de serviço é criada, por exemplo, uma sequência de etapas é acionada, e em caso de erro em qualquer uma dessas etapas, é possível reverter ou compensar as ações já realizadas, mantendo o sistema num estado consistente.
+
+**Kafka como Middleware:** O Apache Kafka é utilizado como um middleware de mensagens para facilitar a comunicação assíncrona entre os microservices. Ele permite que os eventos sejam publicados e consumidos de forma confiável, garantindo que as mensagens sejam entregues aos consumidores, mesmo em cenários de alta carga.
+
+**Fluxo de Operações Típico:** Quando um cliente cria uma ordem de serviço, o microservice correspondente publica um evento no Kafka informando essa ação. Outros microservices, como o de pagamento e o de gestão de estoque, assinam esses eventos e realizam as suas operações específicas. Se algo der errado em qualquer etapa, o padrão Saga é acionado para garantir a consistência dos dados.
+
+**Benefícios do Projeto:** Esse projeto de microservices oferece escalabilidade, resiliência e flexibilidade, uma vez que os serviços podem ser dimensionados individualmente. Além disso, o uso do ‘design’ pattern Saga garante a consistência em ambientes distribuídos, e o Kafka facilita a comunicação entre os microservices de maneira eficaz.
+
+Em resumo, representa uma implementação robusta e altamente técnica de um sistema de microservices para gestão de ordens de serviço e estoque, aplicando o ‘design’ pattern Saga e utilizando o Apache Kafka para comunicação assíncrona entre os serviços. Esse projeto é uma demonstração de boas práticas no desenvolvimento de sistemas distribuídos com Java e Spring Boot.
+
+![Arquitetura](resources/ms-order-sales.gif)
 
 ### Sumário:
 
@@ -296,7 +308,7 @@ Resposta:
       "createdAt": "2023-04-21T14:32:56.78770516"
     },
     {
-      "source": "PRODUCT_VALIDATION_SERVICE",
+      "source": "PRODUCT_SERVICE",
       "status": "SUCCESS",
       "message": "Products are validated successfully!",
       "createdAt": "2023-04-21T14:32:57.169378616"

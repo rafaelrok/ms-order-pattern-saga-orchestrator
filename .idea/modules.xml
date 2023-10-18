@@ -15,9 +15,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/payment-service.iml" filepath="$PROJECT_DIR$/.idea/modules/payment-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/payment-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/payment-service.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/payment-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/payment-service.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-validation-service.iml" filepath="$PROJECT_DIR$/.idea/modules/product-validation-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-validation-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/product-validation-service.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-validation-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/product-validation-service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-service.iml" filepath="$PROJECT_DIR$/.idea/modules/product-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/product-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/product-service.test.iml" />
     </modules>
   </component>
 </project>
