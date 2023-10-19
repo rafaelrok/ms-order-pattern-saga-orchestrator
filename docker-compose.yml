@@ -2,8 +2,59 @@ version: '3'
 
 services:
 
+  order-db:
+    image: mongo:latest
+    container_name: order-db
+    restart: always
+    networks:
+      - orchestrator-saga
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=
+      - MONGO_INITDB_ROOT_PASSWORD=
+    ports:
+      - "27017:27017"
+
+  product-db:
+    container_name: product-db
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: product-db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      PGDATA: /data/postgres
+    networks:
+      - orchestrator-saga
+    ports:
+      - "5432:5432"
+
+  payment-db:
+    container_name: payment-db
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: payment-db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      PGDATA: /data/postgres
+    networks:
+      - orchestrator-saga
+    ports:
+      - "5433:5432"
+
+  inventory-db:
+    container_name: inventory-db
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: inventory-db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      PGDATA: /data/postgres
+    networks:
+      - orchestrator-saga
+    ports:
+      - "5434:5432"
+
   kafka:
-    container_name: event
+    container_name: kafka
     image: obsidiandynamics/kafka
     restart: "no"
     ports:
@@ -13,7 +64,7 @@ services:
       - orchestrator-saga
     environment:
       KAFKA_LISTENERS: "INTERNAL://:29092,EXTERNAL://:9092"
-      KAFKA_ADVERTISED_LISTENERS: "INTERNAL://event:29092,EXTERNAL://localhost:9092"
+      KAFKA_ADVERTISED_LISTENERS: "INTERNAL://kafka:29092,EXTERNAL://localhost:9092"
       KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: "INTERNAL:PLAINTEXT,EXTERNAL:PLAINTEXT"
       KAFKA_INTER_BROKER_LISTENER_NAME: "INTERNAL"
       KAFKA_ZOOKEEPER_SESSION_TIMEOUT: "6000"
@@ -39,7 +90,7 @@ services:
         kafka:
           brokers: ["kafka:29092"]
     depends_on:
-      - "event"
+      - "kafka"
 
 networks:
   orchestrator-saga:
