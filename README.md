@@ -1,22 +1,18 @@
 # <p align="center"> ms-order-sales-pattern-saga
 <p align="center">
-     <img alt="GitHub language count" src="https://img.shields.io/github/commit-activity/t/rafaelrok/ms-order-pattern-saga-orchestrator
-">
-     <img alt="Repository size" src="https://img.shields.io/github/repo-size/rafaelrok/ms-order-pattern-saga-orchestrator
-">
+     <img alt="GitHub language count" src="https://img.shields.io/github/commit-activity/t/rafaelrok/ms-order-pattern-saga-orchestrator">
+     <img alt="Repository size" src="https://img.shields.io/github/repo-size/rafaelrok/ms-order-pattern-saga-orchestrator">
      <a href="https://twitter.com/RafaelV38440615">
       <img alt="Siga no Twitter" src="https://img.shields.io/twitter/url?url=https://github.com/rafaelrok/quick-barber/edit/main/README.md">
      </a>  
      <a href="https://github.com/quick-barber/README.md/commits/master">
-      <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rafaelrok/ms-order-pattern-saga-orchestrator/main
-">
+      <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rafaelrok/ms-order-pattern-saga-orchestrator/main">
      </a>
      <a href="https://github.com/rafaelrok/ms-order-pattern-saga-orchestrator/blob/main/LICENSE">
       <img alt="License" src="https://img.shields.io/hexpm/l/apa?logo=apache">
      </a>  
      <a href="https://github.com/tgmarinho/README-ecoleta/stargazers">
-      <img alt="Stargazers" src="https://img.shields.io/github/stars/rafaelrok/ms-order-pattern-saga-orchestrator
-">
+      <img alt="Stargazers" src="https://img.shields.io/github/stars/rafaelrok/ms-order-pattern-saga-orchestrator">
      </a>
      <a href="https://medium.com/@rafael">
       <img alt="medium" src="https://img.shields.io/twitter/url?label=Medium&logo=medium&style=social&url=https%3A%2F%2Fmedium.com%2F%40rafael.">
