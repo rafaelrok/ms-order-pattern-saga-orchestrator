@@ -62,7 +62,7 @@ Em resumo, representa uma implementação robusta e altamente técnica de um sis
 
 Nesse projeto desenvolvi a seguinte aquitetura:
 
-![Arquitetura](Conte%C3%BAdos/Arquitetura%20Proposta.png)
+![Arquitetura](resources/Orchestration.png)
 
 Arquitetura contem teremos 5 serviços:
 
@@ -158,7 +158,7 @@ http://localhost:3000/swagger-ui.html
 
 Você chegará nesta página:
 
-![Swagger](Conte%C3%BAdos/Documentacao.png)
+![Swagger](resources/Documentacao.png)
 
 As aplicações executarão nas seguintes portas:
 
@@ -184,7 +184,7 @@ http://localhost:8081
 
 Você chegará nesta página:
 
-![Redpanda](Conte%C3%BAdos/Redpanda%20Kafka.png)
+![Redpanda](resources/Redpanda%20Kafka.png)
 
 ## Dados da API
 
