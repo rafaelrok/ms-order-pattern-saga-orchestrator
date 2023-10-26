@@ -1,18 +1,43 @@
-# Projeto: ms-order-sales-pattern-saga
+# <p align="center"> ms-order-sales-pattern-saga
+<p align="center">
+     <img alt="GitHub language count" src="https://img.shields.io/github/commit-activity/t/rafaelrok/ms-order-pattern-saga-orchestrator
+">
+     <img alt="Repository size" src="https://img.shields.io/github/repo-size/rafaelrok/ms-order-pattern-saga-orchestrator
+">
+     <a href="https://twitter.com/RafaelV38440615">
+      <img alt="Siga no Twitter" src="https://img.shields.io/twitter/url?url=https://github.com/rafaelrok/quick-barber/edit/main/README.md">
+     </a>  
+     <a href="https://github.com/quick-barber/README.md/commits/master">
+      <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rafaelrok/ms-order-pattern-saga-orchestrator/main
+">
+     </a>
+     <a href="https://github.com/rafaelrok/ms-order-pattern-saga-orchestrator/blob/main/LICENSE">
+      <img alt="License" src="https://img.shields.io/hexpm/l/apa?logo=apache">
+     </a>  
+     <a href="https://github.com/tgmarinho/README-ecoleta/stargazers">
+      <img alt="Stargazers" src="https://img.shields.io/github/stars/rafaelrok/ms-order-pattern-saga-orchestrator
+">
+     </a>
+     <a href="https://medium.com/@rafael">
+      <img alt="medium" src="https://img.shields.io/twitter/url?label=Medium&logo=medium&style=social&url=https%3A%2F%2Fmedium.com%2F%40rafael.">
+     </a>
+  </p>
+
+---
 
 ![Arquitetura](resources/Design%20Pattern%20Saga.gif)
 
-O projeto é um sistema de microservices desenvolvido em Java com Spring Boot, com objetivo de gerir ordens de serviços e manipulação de estoque de forma distribuída. Uma abordagem central nesse projeto é a aplicação do ‘design’ pattern Saga e a utilização do Apache Kafka como meio de comunicação entre os microservices.
+>O projeto é um sistema de microservices desenvolvido em Java com Spring Boot, com objetivo de gerir ordens de serviços e manipulação de estoque de forma distribuída. Uma abordagem central nesse projeto é a aplicação do ‘design’ pattern Saga e a utilização do Apache Kafka como meio de comunicação entre os microservices.
 
-**Arquitetura de Microservices:** O sistema é composto por vários microservices que desempenham funções específicas, como a criação de ordens de serviço, o processamento de pagamentos, a atualização do estoque e assim por diante. Cada microservice é responsável por uma parte do processo, permitindo escalabilidade e flexibilidade.
+>**Arquitetura de Microservices:** O sistema é composto por vários microservices que desempenham funções específicas, como a criação de ordens de serviço, o processamento de pagamentos, a atualização do estoque e assim por diante. Cada microservice é responsável por uma parte do processo, permitindo escalabilidade e flexibilidade.
 
-**‘Design’ Pattern Saga:** O padrão Saga é aplicado para garantir a consistência e atomicidade das transações distribuídas. Quando uma ordem de serviço é criada, por exemplo, uma sequência de etapas é acionada, e em caso de erro em qualquer uma dessas etapas, é possível reverter ou compensar as ações já realizadas, mantendo o sistema num estado consistente.
+>**‘Design’ Pattern Saga:** O padrão Saga é aplicado para garantir a consistência e atomicidade das transações distribuídas. Quando uma ordem de serviço é criada, por exemplo, uma sequência de etapas é acionada, e em caso de erro em qualquer uma dessas etapas, é possível reverter ou compensar as ações já realizadas, mantendo o sistema num estado consistente.
 
-**Kafka como Middleware:** O Apache Kafka é utilizado como um middleware de mensagens para facilitar a comunicação assíncrona entre os microservices. Ele permite que os eventos sejam publicados e consumidos de forma confiável, garantindo que as mensagens sejam entregues aos consumidores, mesmo em cenários de alta carga.
+>**Kafka como Middleware:** O Apache Kafka é utilizado como um middleware de mensagens para facilitar a comunicação assíncrona entre os microservices. Ele permite que os eventos sejam publicados e consumidos de forma confiável, garantindo que as mensagens sejam entregues aos consumidores, mesmo em cenários de alta carga.
 
-**Fluxo de Operações Típico:** Quando um cliente cria uma ordem de serviço, o microservice correspondente publica um evento no Kafka informando essa ação. Outros microservices, como o de pagamento e o de gestão de estoque, assinam esses eventos e realizam as suas operações específicas. Se algo der errado em qualquer etapa, o padrão Saga é acionado para garantir a consistência dos dados.
+>**Fluxo de Operações Típico:** Quando um cliente cria uma ordem de serviço, o microservice correspondente publica um evento no Kafka informando essa ação. Outros microservices, como o de pagamento e o de gestão de estoque, assinam esses eventos e realizam as suas operações específicas. Se algo der errado em qualquer etapa, o padrão Saga é acionado para garantir a consistência dos dados.
 
-**Benefícios do Projeto:** Esse projeto de microservices oferece escalabilidade, resiliência e flexibilidade, uma vez que os serviços podem ser dimensionados individualmente. Além disso, o uso do ‘design’ pattern Saga garante a consistência em ambientes distribuídos, e o Kafka facilita a comunicação entre os microservices de maneira eficaz.
+>**Benefícios do Projeto:** Esse projeto de microservices oferece escalabilidade, resiliência e flexibilidade, uma vez que os serviços podem ser dimensionados individualmente. Além disso, o uso do ‘design’ pattern Saga garante a consistência em ambientes distribuídos, e o Kafka facilita a comunicação entre os microservices de maneira eficaz.
 
 Em resumo, representa uma implementação robusta e altamente técnica de um sistema de microservices para gestão de ordens de serviço e estoque, aplicando o ‘design’ pattern Saga e utilizando o Apache Kafka para comunicação assíncrona entre os serviços. Esse projeto é uma demonstração de boas práticas no desenvolvimento de sistemas distribuídos com Java e Spring Boot.
 
@@ -366,7 +391,37 @@ Para realizar queries e validar se os dados existem:
 
 **db.order.find({ "products.product.code": "COMIC_BOOKS"})**
 
-## Autor
+---
+## Desenvolvedor
 
-### Rafael Vieira dos Santos
-### Desenvolvedor de Software Back-End Java
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/8467131?v=4" width="100px;" alt="Foto do Rafael Vieira no GitHub"/><br>
+        <sub>
+          <b>Rafael Vieira dos Santos</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <a href="https://www.linkedin.com/in/rafaelvieira-s/">
+      <img alt="linkedin" src="https://img.shields.io/twitter/url?label=Linkedin&logo=linkedin&style=social&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Frafaelvieira-s%2F">
+    </a>
+    <a href="https://medium.com/@rafael">
+      <img alt="medium" src="https://img.shields.io/twitter/url?label=Medium&logo=medium&style=social&url=https%3A%2F%2Fmedium.com%2F%40rafael.">
+    </a>
+    <a href = "mailto:rafaelrok25@gmail.com">
+      <img alt="gmail" src="https://img.shields.io/twitter/url?label=gmail&logo=gmail&style=social&url=https%3A%2F%2Fmail.google.com%2F">
+    </a>
+  </tr>
+</table>
+
+## 📝 Licença
+
+Esse projeto está sob licença. Observe o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
+
+[⬆ Voltar ao topo](#projeto-ms-order-sales-pattern-saga)<br>
