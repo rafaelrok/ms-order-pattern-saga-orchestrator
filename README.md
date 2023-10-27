@@ -79,13 +79,12 @@ Em resumo, representa uma implementação robusta e altamente técnica de um sis
 
 # Arquitetura Proposta
 
-[Voltar ao início](#sum%C3%A1rio)
+Imagem modelo de uma padrão SAGA <a href="https://microservices.io/patterns/data/saga.html"> fonte </a>:
+![Arquitetura](resources/Orchestration.png)
 
 Nesse projeto desenvolvi a seguinte aquitetura:
 
-![Arquitetura](resources/Orchestration.png)
-
-Arquitetura contem teremos 5 serviços:
+Arquitetura contem 5 serviços:
 
 * **Order-Service**: microsserviço responsável apenas por gerar um pedido inicial, e receber uma notificação. Aqui que teremos endpoints REST para inciar o processo e recuperar os dados dos eventos. O banco de dados utilizado será o MongoDB.
 * **Orchestrator-Service**: microsserviço responsável por orquestrar todo o fluxo de execução da Saga, ele que saberá qual microsserviço foi executado e em qual estado, e para qual será o próximo microsserviço a ser enviado, este microsserviço também irá salvar o processo dos eventos. Este serviço não possui banco de dados.
