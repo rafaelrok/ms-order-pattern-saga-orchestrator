@@ -1,4 +1,5 @@
-# <p align="center"> ms-order-sales-pattern-saga
+# <p align="center"> ms-order-sales-pattern-saga-orchestrator
+
 <p align="center">
      <img alt="GitHub language count" src="https://img.shields.io/github/commit-activity/t/rafaelrok/ms-order-pattern-saga-orchestrator">
      <img alt="Repository size" src="https://img.shields.io/github/repo-size/rafaelrok/ms-order-pattern-saga-orchestrator">
@@ -27,7 +28,7 @@
 
 >**Arquitetura de Microservices:** O sistema é composto por vários microservices que desempenham funções específicas, como a criação de ordens de serviço, o processamento de pagamentos, a atualização do estoque e assim por diante. Cada microservice é responsável por uma parte do processo, permitindo escalabilidade e flexibilidade.
 
->**‘Design’ Pattern Saga:** O padrão Saga é aplicado para garantir a consistência e atomicidade das transações distribuídas. Quando uma ordem de serviço é criada, por exemplo, uma sequência de etapas é acionada, e em caso de erro em qualquer uma dessas etapas, é possível reverter ou compensar as ações já realizadas, mantendo o sistema num estado consistente.
+>**‘Design’ Pattern Saga Orchestrator:** O padrão Saga é aplicado para garantir a consistência e atomicidade das transações distribuídas. Quando uma ordem de serviço é criada, por exemplo, uma sequência de etapas é acionada, e em caso de erro em qualquer uma dessas etapas, é possível reverter ou compensar as ações já realizadas, mantendo o sistema num estado consistente.
 
 >**Kafka como Middleware:** O Apache Kafka é utilizado como um middleware de mensagens para facilitar a comunicação assíncrona entre os microservices. Ele permite que os eventos sejam publicados e consumidos de forma confiável, garantindo que as mensagens sejam entregues aos consumidores, mesmo em cenários de alta carga.
 
