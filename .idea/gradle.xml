@@ -4,9 +4,10 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/inventory-service" />
         <option name="gradleHome" value="C:/Gradle/gradle-8.4" />
-        <option name="gradleJvm" value="corretto-17" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/inventory-service" />
@@ -14,9 +15,10 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/orchestrator-service" />
         <option name="gradleHome" value="C:/Gradle/gradle-8.4" />
-        <option name="gradleJvm" value="corretto-17" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/orchestrator-service" />
@@ -24,9 +26,10 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/order-service" />
         <option name="gradleHome" value="C:/Gradle/gradle-8.4" />
-        <option name="gradleJvm" value="corretto-17" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/order-service" />
@@ -34,9 +37,10 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/payment-service" />
         <option name="gradleHome" value="C:/Gradle/gradle-8.4" />
-        <option name="gradleJvm" value="corretto-17" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/payment-service" />
@@ -44,7 +48,10 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/product-service" />
+        <option name="gradleHome" value="C:/Gradle/gradle-8.4" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/product-service" />
@@ -52,5 +59,6 @@
         </option>
       </GradleProjectSettings>
     </option>
+    <option name="parallelModelFetch" value="true" />
   </component>
 </project>

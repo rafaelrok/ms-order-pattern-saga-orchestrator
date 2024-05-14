@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module version="4">
-  <component name="SonarLintModuleSettings">
-    <option name="uniqueId" value="bea4fdfd-b959-48a1-a79b-5c129e44b3a8" />
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$/../../payment-service/build/generated/sources/annotationProcessor/java/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../payment-service/build/generated/sources/annotationProcessor/java/main" isTestSource="false" generated="true" />
+    </content>
   </component>
 </module>
